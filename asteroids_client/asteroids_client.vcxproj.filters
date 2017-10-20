@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cameras">
+      <UniqueIdentifier>{a708373d-5cd0-4457-8920-e73bfa9184bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderables">
+      <UniqueIdentifier>{a3ec7753-3e8b-4509-997f-503fde7bce38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cameras">
+      <UniqueIdentifier>{c8f13f34-a55f-43f7-bee5-aebebaf0ad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderables">
+      <UniqueIdentifier>{be6dce2e-56d1-4f94-bcc0-b509ff6c2fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shaders">
+      <UniqueIdentifier>{c47ab1c3-38bd-45b3-8fa7-be7d05ade049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{dca117ab-2dc8-4cda-99c1-a3b96f87c6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{64886be0-bed3-4da5-97bc-c27435e281ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Procedures">
+      <UniqueIdentifier>{10c0c78a-0db8-4740-b6e5-653272494a56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMesh.cpp">
+      <Filter>Source Files\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyPlane.cpp">
+      <Filter>Source Files\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="TargaTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTexturedMeshShader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticColouredMeshShader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RayTracingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargaTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Header Files\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMesh.h">
+      <Filter>Header Files\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyPlane.h">
+      <Filter>Header Files\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTexturedMeshShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticColouredMeshShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader2D.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTexturedMeshProcedures.h">
+      <Filter>Header Files\Game\Procedures</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTexturedLightingMeshShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTexturedLightingMeshProcedures.h">
+      <Filter>Header Files\Game\Procedures</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticColouredMeshProcedures.h">
+      <Filter>Header Files\Game\Procedures</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightProcedures.h">
+      <Filter>Header Files\Game\Procedures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

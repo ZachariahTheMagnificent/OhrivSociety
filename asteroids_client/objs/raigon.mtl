@@ -1,0 +1,28 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Swordmaster_Legendary01_diffuse01-backface.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.650600 0.795597 0.673558
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Swordmaster_Legendary01_diffuse01.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.666023 0.712045 0.462773
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
